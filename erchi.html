@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPICE STORE </title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-orange-50 text-gray-800">
+       
+<!-- NAVBAR -->
+<nav class="bg-white shadow-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+        <div class="flex items-center justify-between">
+            <!-- LOGO -->
+            <a href="#home"
+               class="text-xl sm:text-2xl font-bold text-green-800 whitespace-nowrap">
+                🌿 <span class="text-orange-600">AICY SPICE</span> </a>
+            <!-- DESKTOP MENU -->
+            <!-- Only appears on large screens -->
+            <div class="hidden lg:flex items-center gap-8">
+                <a href="#home"  class="text-green-800 font-semibold hover:text-orange-600 transition"> HOME </a>
+                <a href="#products"  class="hover:text-orange-600 transition">  PRODUCTS </a>
+                <a href="#categories" class="hover:text-orange-600 transition">  CATEGORIES </a>
+                <a href="#about" class="hover:text-orange-600 transition">  ABOUT </a>
+                <a href="#contact" class="hover:text-orange-600 transition">   CONTACT </a>
+            </div>
+            <!-- CART -->
+            <button class="hidden lg:block bg-green-800 text-white px-5 py-2 rounded-full hover:bg-green-700 transition"> 🛒 Cart </button>
+            <!-- TABLET + MOBILE MENU -->
+            <details class="lg:hidden relative">
+                <!-- HAMBURGER -->
+                <summary class="list-none cursor-pointer text-green-800">
+                    <svg  class="w-7 h-7"  fill="none"  stroke="currentColor" viewBox="0 0 24 24">
+                        <path  stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"  d="M4 6h16M4 12h16M4 18h16">  </path>
+                    </svg>
+                </summary>
+                <!-- DROPDOWN -->
+                <div class="absolute right-0 top-12 w-56 sm:w-64 bg-white shadow-xl rounded-xl p-5">
+                    <div class="flex flex-col gap-5">
+                        <a href="#home"  class="text-green-800 font-semibold hover:text-orange-600">  HOME </a>
+                        <a href="#products"  class="hover:text-orange-600"> PRODUCTS </a>
+                        <a href="#categories" class="hover:text-orange-600"> CATEGORIES </a>
+                        <a href="#about" class="hover:text-orange-600"> ABOUT </a>
+                        <a href="#contact" class="hover:text-orange-600">  CONTACT </a>
+                        <button class="bg-green-800 text-white px-5 py-2 rounded-full hover:bg-green-700"> 🛒 Cart </button>
+                    </div> </div> </details> </div> </div> </nav>
+<!-- HERO SECTION  -->
+ <section class="bg-orange-100">
+    <div class="max-w-7xl mx-auto px-6 py-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <!-- LEFT CONTENT -->
+             <div>
+                <p class="text-orange-600 font-semibold mb-4">🌿 100% NATURAL & FRESH</p>
+                <h1 class="text-4xl md-text-6xl font-bold text-green-900 leading-tight">AUTHENTIC SPICES
+                    <span class="text-orange-600">FROM KERALA</span></h1>
+                    <p class="text-gray-600 text-lg mt-6 leading-relaxed">
+                         Discover premium quality spices sourced directly
+                    from Kerala. Fresh, natural and full of authentic
+                    flavor</p>
+                    <!-- BUTTONS -->
+                     <div class="flex flex-wrap gap-4 mt-8">
+                         <a href="#PRODUCTS" class="bg-green-800 text-white px-7 py-3 rounded-full font-semibold hover:bg-green-700">SHOP NOW</a>
+
+                    <a href="#CATEGORIES"   class="border-2 border-green-800 text-green-800 px-7 py-3 rounded-full font-semibold hover:bg-green-800 hover:text-white">EXPLORE SPICES</a>
+                    </div> </div>
+                    <!-- RIGHT SIDE  -->
+                    <img src="img/images.jpg" alt="collection of indian spices " class="w-full rounded-3xl shadow-xl">
+                    </div>   </div>     </div> </section>
+        <!-- ================= SPICE CATEGORIES ================= -->
+
+<section id="categories" class="py-20 bg-orange-50">
+    <div class="max-w-7xl mx-auto px-6">
+        <!-- SECTION TITLE -->
+        <div class="text-center mb-12">
+            <p class="text-orange-600 font-semibold uppercase tracking-wide">
+                Our Collection
+            </p>
+            <h2 class="text-3xl md:text-4xl font-bold text-green-900 mt-2">
+                Shop By Category
+            </h2>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                Explore our premium collection of authentic spices
+                carefully selected for your kitchen.  </p>
+            </div>
+
+        <!-- ================= CATEGORY GRID ================= -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- ================= CARD 1 ================= -->
+          
+            <div class="group bg-white p-8 rounded-2xl shadow-md text-center
+                        border border-transparent
+                        hover:border-orange-400
+                        hover:shadow-2xl
+                        hover:-translate-y-3
+                        hover:scale-105
+                        transition-all duration-300">
+                <div class="text-5xl mb-5
+                            group-hover:scale-125
+                            group-hover:rotate-6
+                            transition-all duration-300">
+                    🌶️
+                </div>
+                <h3 class="text-xl font-bold text-green-900
+                           group-hover:text-orange-600 transition">  Whole Spices  </h3>
+                <p class="text-gray-500 mt-3">
+                    Fresh and aromatic whole spices for authentic cooking.
+                </p>
+                <a href="#products"
+                   class="inline-block mt-5 text-orange-600 font-semibold
+                          group-hover:text-green-800 transition">
+                    Explore →
+                </a>
+            </div>
+            <!-- ================= CARD 2 ================= -->
+            <div class="group bg-white p-8 rounded-2xl shadow-md text-center
+                        border border-transparent
+                        hover:border-orange-400
+                        hover:shadow-2xl
+                        hover:-translate-y-3
+                        hover:scale-105
+                        transition-all duration-300">
+                <div class="text-5xl mb-5
+                            group-hover:scale-125
+                            group-hover:rotate-6
+                            transition-all duration-300">
+                    🧂
+                </div>
+                <h3 class="text-xl font-bold text-green-900
+                           group-hover:text-orange-600 transition">
+                    Ground Spices
+                </h3>
+                <p class="text-gray-500 mt-3">
+                    Finely ground spices packed with rich flavor and aroma.
+                </p>
+                <a href="#products"
+                   class="inline-block mt-5 text-orange-600 font-semibold
+                          group-hover:text-green-800 transition">
+                    Explore →
+                </a>
+            </div>
+            <!-- ================= CARD 3 ================= -->
+            <div class="group bg-white p-8 rounded-2xl shadow-md text-center
+                        border border-transparent
+                        hover:border-orange-400
+                        hover:shadow-2xl
+                        hover:-translate-y-3
+                        hover:scale-105
+                        transition-all duration-300">
+                <div class="text-5xl mb-5
+                            group-hover:scale-125
+                            group-hover:rotate-6
+                            transition-all duration-300">
+                    🌿
+                </div>
+                <h3 class="text-xl font-bold text-green-900
+                           group-hover:text-orange-600 transition">
+                    Organic Spices
+                </h3>
+                <p class="text-gray-500 mt-3">
+                    Naturally grown spices with authentic taste and quality.
+                </p>
+                <a href="#products"
+                   class="inline-block mt-5 text-orange-600 font-semibold
+                          group-hover:text-green-800 transition">
+                    Explore →
+                </a>
+            </div>
+            <!-- ================= CARD 4 ================= -->
+            <div class="group bg-white p-8 rounded-2xl shadow-md text-center
+                        border border-transparent
+                        hover:border-orange-400
+                        hover:shadow-2xl
+                        hover:-translate-y-3
+                        hover:scale-105
+                        transition-all duration-300">
+                <div class="text-5xl mb-5
+                            group-hover:scale-125
+                            group-hover:rotate-6
+                            transition-all duration-300">
+                    🫙
+                </div>
+                <h3 class="text-xl font-bold text-green-900
+                           group-hover:text-orange-600 transition">
+                    Spice Blends
+                </h3>
+                <p class="text-gray-500 mt-3">
+                    Carefully crafted spice blends for delicious meals.
+                </p>
+                <a href="#products"
+                   class="inline-block mt-5 text-orange-600 font-semibold
+                          group-hover:text-green-800 transition">
+                    Explore →
+                </a>
+            </div>
+            <!-- ================= CARD 5 ================= -->
+            <div class="group bg-white p-8 rounded-2xl shadow-md text-center
+                        border border-transparent
+                        hover:border-orange-400
+                        hover:shadow-2xl
+                        hover:-translate-y-3
+                        hover:scale-105
+                        transition-all duration-300">
+                <div class="text-5xl mb-5
+                            group-hover:scale-125
+                            group-hover:rotate-6
+                            transition-all duration-300">
+                    🎁
+                </div>
+                <h3 class="text-xl font-bold text-green-900
+                           group-hover:text-orange-600 transition">
+                    Gift Packs
+                </h3>
+                <p class="text-gray-500 mt-3">
+                    Special spice collections perfect for gifting.
+                </p>
+                <a href="#products"
+                   class="inline-block mt-5 text-orange-600 font-semibold
+                          group-hover:text-green-800 transition">
+                    Explore →
+                </a>
+            </div>
+            <!-- ================= CARD 6 ================= -->
+            <div class="group bg-white p-8 rounded-2xl shadow-md text-center
+                        border border-transparent
+                        hover:border-orange-400
+                        hover:shadow-2xl
+                        hover:-translate-y-3
+                        hover:scale-105
+                        transition-all duration-300">
+                <div class="text-5xl mb-5
+                            group-hover:scale-125
+                            group-hover:rotate-6
+                            transition-all duration-300">
+                    🍃
+                </div>
+                <h3 class="text-xl font-bold text-green-900
+                           group-hover:text-orange-600 transition">
+                    Herbal Products
+                </h3>
+                <p class="text-gray-500 mt-3">
+                    Natural herbs and traditional herbal products.
+                </p>
+                <a href="#products"
+                   class="inline-block mt-5 text-orange-600 font-semibold
+                          group-hover:text-green-800 transition">
+                    Explore →
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FEATURED PRODUCTS  -->
+ <section id="products" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <!-- section heading -->
+         <div class="text-center mb-12">
+            <p class="text-orange-600 font-semibold uppercase tracking-wide">OUR BEST SELLERS </p>
+            <h2 class="text-3xl md:text-4xl font-bold text-green-900 mt-2">FEATURED PRODUCTS </h2>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">  Discover our most popular spices, carefully selected
+                for freshness, quality and authentic flavor.</p>
+                </div>
+                <!-- porduct grid  -->
+                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- pro 1 -->
+                      <div class="group bg-orange-50 rounded-2xl overflow-hidden
+                        shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+
+                    <!-- pro 1 img  -->
+                     <div class="overflow-hidden">
+                        <img src="img/17-Amazing-Benefits-Of-Black-Pepper-For-Skin-Hair-And-Health.jpg.webp"
+                        alt="black pepper img" class="w-full h-56 object-cover group-hover:scale-110 transition duration-500">
+                        </div>
+                       <div class="p-6">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold text-green-900  group-hover:text-orange-600 transition">   Black Pepper </h3>
+                        <span class="text-yellow-500 text-sm"> ★★★★★ </span>
+                    </div>
+                    <p class="text-gray-500 mt-3">
+                        Premium Kerala black pepper with a rich
+                        aroma and bold flavor.
+                    </p>
+                    <!-- PRICE + BUTTON -->
+                    <div class="flex items-center justify-between mt-6">
+                        <span class="text-2xl font-bold text-orange-600">    ₹180 </span>
+                        <button  class="bg-green-800 text-white px-5 py-2.5 rounded-full font-semibold   hover:bg-green-700 transition"> 🛒 Add to Cart </button>
+                    </div>
+                </div>
+            </div>
+
+<!-- pro  2 -->
+             <div class="group bg-orange-50 rounded-2xl overflow-hidden    shadow-md hover:shadow-2xl    hover:-translate-y-2    transition-all duration-300">
+                <div class="overflow-hidden">
+                    <img    src="img/images (2).jpg"    alt="Green cardamom"     class="w-full h-56 object-cover  group-hover:scale-110   transition duration-500"  >
+                </div>
+
+                <div class="p-6">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold text-green-900   group-hover:text-orange-600 transition">    Green Cardamom    </h3>
+                        <span class="text-yellow-500 text-sm">
+                            ★★★★★  </span>
+                    </div>
+                    <p class="text-gray-500 mt-3">    Fresh and aromatic green cardamom sourced  
+                          from the hills of Kerala.  </p>
+                    <div class="flex items-center justify-between mt-6">
+                        <span class="text-2xl font-bold text-orange-600">
+                            ₹320
+                        </span>
+                        <button  class="bg-green-800 text-white px-5 py-2.5   rounded-full font-semibold   hover:bg-green-700 transition">    🛒 Add to Cart
+                        </button> </div>  </div> </div>
+<!-- pro 3 -->
+ <div class="group bg-orange-50 rounded-2xl overflow-hidden    shadow-md hover:shadow-2xl    hover:-translate-y-2    transition-all duration-300">
+                <div class="overflow-hidden">
+                    <img
+                        src="img/DSC_0236.avif"  alt="Cinnamon sticks"  class="w-full h-56 object-cover   group-hover:scale-110   transition duration-500" >
+                </div>
+
+                <div class="p-6">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold text-green-900   group-hover:text-orange-600 transition">  Cinnamon   </h3>
+                        <span class="text-yellow-500 text-sm">  ★★★★★ </span>
+                    </div>
+                    <p class="text-gray-500 mt-3">
+                        Naturally fragrant cinnamon sticks with a warm and sweet aroma. </p>
+                    <div class="flex items-center justify-between mt-6">
+                        <span class="text-2xl font-bold text-orange-600"> ₹150
+                        </span>
+                        <button  class="bg-green-800 text-white px-5 py-2.5    rounded-full font-semibold  hover:bg-green-700 transition">  🛒 Add to Cart
+                        </button>  </div>  </div>  </div>
+
+                        <!-- pro 4 -->
+                           <div class="group bg-orange-50 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                <div class="overflow-hidden">
+                    <img
+                        src="img/buy-organic-turmeric-powder-chemical-free-natural.webp"
+                        alt="Turmeric powder" class="w-full h-56 object-cover group-hover:scale-110 transition duration-500" >
+                     </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold text-green-900 group-hover:text-orange-600 transition"> Turmeric Powder </h3>
+                        <span class="text-yellow-500 text-sm"> ★★★★★ </span>
+                    </div>
+                    <p class="text-gray-500 mt-3"> Pure turmeric powder with vibrant color and authentic flavor. </p>
+
+                    <div class="flex items-center justify-between mt-6">
+                        <span class="text-2xl font-bold text-orange-600">  ₹120</span>
+                        <button
+                            class="bg-green-800 text-white px-5 py-2.5    rounded-full font-semibold hover:bg-green-700 transition"> 🛒 Add to Cart
+                        </button> </div> </div> </div>
+    <!-- pro 5 -->
+         <div class="group bg-orange-50 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl  hover:-translate-y-2  transition-all duration-300">
+                <div class="overflow-hidden">
+                    <img
+                        src="img/Dry-Cloves.jpg" alt="Cloves"
+                        class="w-full h-56 object-cover group-hover:scale-110 transition duration-500" >
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold text-green-900 group-hover:text-orange-600 transition"> Cloves </h3>
+                        <span class="text-yellow-500 text-sm"> ★★★★★ </span>
+                    </div>
+                    <p class="text-gray-500 mt-3"> Strong, aromatic cloves perfect for cooking and beverages.  </p>
+                    <div class="flex items-center justify-between mt-6">
+                        <span class="text-2xl font-bold text-orange-600"> ₹220 </span>
+                        <button  class="bg-green-800 text-white px-5 py-2.5  rounded-full font-semibold hover:bg-green-700 transition"> 🛒 Add to Cart
+                        </button> </div> </div> </div>  
+     <!--pro 6  -->
+        <div class="group bg-orange-50 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl  hover:-translate-y-2  transition-all duration-300">
+                <div class="overflow-hidden">
+                    <img
+                        src="img/garam-masala-spice-recipe.jpg" alt="Garam masala"
+                         class="w-full h-56 object-cover  group-hover:scale-110  transition duration-500"  >
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold text-green-900  group-hover:text-orange-600 transition"> Kerala Garam Masala  </h3>
+                        <span class="text-yellow-500 text-sm"> ★★★★★ </span>
+                    </div>
+
+                    <p class="text-gray-500 mt-3"> A traditional blend of aromatic spices for authentic Kerala dishes. </p>
+                    <div class="flex items-center justify-between mt-6">
+                        <span class="text-2xl font-bold text-orange-600"> ₹160 </span>
+                        <button
+                            class="bg-green-800 text-white px-5 py-2.5  rounded-full font-semibold  hover:bg-green-700 transition">  🛒 Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- WHY CHOOSE US  -->
+           
+<section class="py-20 bg-green-900 text-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <!-- SECTION HEADING -->
+        <div class="text-center mb-12">
+            <p class="text-orange-400 font-semibold uppercase"> Why Choose Us </p>
+            <h2 class="text-3xl md:text-4xl font-bold mt-2">  Quality You Can Trust </h2>
+            <p class="text-green-100 mt-4 max-w-2xl mx-auto">
+                We are committed to bringing you fresh, authentic and premium-quality spices for every kitchen. </p>
+        </div>
+        <!-- BENEFITS GRID -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- CARD 1 -->
+            <div class="group text-center p-6 rounded-2xl  border border-green-700  hover:bg-green-800  hover:-translate-y-2  transition-all duration-300">
+                <div class="text-5xl mb-5 group-hover:scale-125  transition duration-300">
+                    🌱 </div>
+                <h3 class="text-xl font-bold"> 100% Natural  </h3>
+                <p class="text-green-100 mt-3">
+                    Our spices are naturally sourced and carefully processed to preserve their authentic flavor. </p>
+            </div>
+            <!-- CARD 2 -->
+            <div class="group text-center p-6 rounded-2xl border border-green-700  hover:bg-green-800  hover:-translate-y-2  transition-all duration-300">
+                <div class="text-5xl mb-5 group-hover:scale-125  transition duration-300">
+                    👨‍🌾 </div>
+                <h3 class="text-xl font-bold"> Direct From Farmers  </h3>
+                <p class="text-green-100 mt-3">
+                    We work with trusted farmers to bring quality  spices directly from their farms to you. </p>
+            </div>
+            <!-- CARD 3 -->
+            <div class="group text-center p-6 rounded-2xl border border-green-700 hover:bg-green-800 hover:-translate-y-2 transition-all duration-300">
+                <div class="text-5xl mb-5 group-hover:scale-125 transition duration-300">
+                    ⭐ </div>
+                <h3 class="text-xl font-bold"> Premium Quality </h3>
+                <p class="text-green-100 mt-3">
+                    Every spice is carefully selected to ensure  excellent quality, freshness and aroma. </p>
+            </div>
+            <!-- CARD 4 -->
+            <div class="group text-center p-6 rounded-2xl border border-green-700 hover:bg-green-800 hover:-translate-y-2 transition-all duration-300">
+                <div class="text-5xl mb-5  group-hover:scale-125 transition duration-300">
+                    🚚 </div>
+                <h3 class="text-xl font-bold">  Fast Delivery  </h3>
+                <p class="text-green-100 mt-3"> Get your favorite spices delivered fresh and  safely right to your doorstep. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= ABOUT AICY SPICE ================= -->
+
+<section id="about" class="py-20 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+
+        <!-- ================= TOP SECTION HEADING ================= -->
+
+        <div class="text-center mb-12">
+
+            <p class="text-orange-600 font-semibold uppercase tracking-widest text-sm">    About Us </p>
+
+            <h2 class="text-3xl md:text-4xl font-bold text-green-900 mt-2">   The Story Behind AICY Spice</h2>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                Bringing the authentic taste and aroma of Kerala spices directly to your kitchen.  </p>
+             </div>
+        <!-- ================= IMAGE + CONTENT ================= -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+            <!-- ================= LEFT : IMAGE ================= -->
+
+            <div class="overflow-hidden rounded-3xl">
+                <img
+                    src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=900&q=80" alt="Fresh Kerala spices"
+                    class="w-full h-80 md:h-[450px] object-cover  hover:scale-105 transition duration-500"  >
+            </div>
+
+            <!-- ================= RIGHT : CONTENT ================= -->
+
+            <div>
+                <!-- MAIN HEADING -->
+                <h3 class="text-3xl md:text-4xl font-bold text-green-900  mt-3 leading-tight">
+                    Bringing the Taste of Kerala to
+                    <span class="text-orange-600">  Your Kitchen </span>
+                </h3>
+                <!-- DESCRIPTION 1 -->
+
+                <p class="text-gray-600 mt-6 leading-relaxed">
+
+                    At AICY Spice, we believe that every great meal
+                    begins with quality spices. We bring authentic
+                    Kerala spices directly from trusted farmers to
+                    your kitchen. </p>
+                <!-- DESCRIPTION 2 -->
+
+                <p class="text-gray-600 mt-4 leading-relaxed">
+
+                    From aromatic cardamom and black pepper to
+                    traditional spice blends, every product is
+                    carefully selected to preserve its natural
+                    freshness, flavor and aroma. </p>
+
+                <!-- ================= FEATURES ================= -->
+                <div class="mt-6 space-y-4">
+
+                    <!-- FEATURE 1 -->
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-700 text-xl font-bold"> ✓</span>
+                        <span class="font-medium text-gray-800"> Premium Quality Spices </span>
+                    </div>
+                    <!-- FEATURE 2 -->
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-700 text-xl font-bold"> ✓ </span>
+                        <span class="font-medium text-gray-800"> Directly Sourced From Farmers </span>
+                    </div>
+                    <!-- FEATURE 3 -->
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-700 text-xl font-bold"> ✓ </span>
+                        <span class="font-medium text-gray-800">  Fresh & Authentic Products </span>
+                    </div>
+                </div>
+
+                <!-- ================= BUTTON ================= -->
+                <a href="#contact"
+                    class="inline-block mt-8 bg-green-800 text-white  px-8 py-3 rounded-full font-semibold hover:bg-green-700 hover:scale-105  transition-all duration-300">
+                    Learn More →  </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CUSTOMER REVIEWS ================= -->
+
+<section class="py-20 bg-orange-50">
+    <div class="max-w-7xl mx-auto px-6">
+        <!-- SECTION HEADING -->
+        <div class="text-center mb-12">
+            <p class="text-orange-600 font-semibold uppercase tracking-widest text-sm"> Customer Reviews</p>
+            <h2 class="text-3xl md:text-4xl font-bold text-green-900 mt-2">  What Our Customers Say </h2>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">  Our customers love the authentic taste, freshness and  quality of AICY Spice products. </p>
+        </div>
+        <!-- ================= REVIEW CARDS ================= -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- ================= REVIEW 1 ================= -->
+
+            <div class="group bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl  hover:-translate-y-2  transition-all duration-300">
+                <!-- STARS -->
+                <div class="text-yellow-500 text-xl">
+                    ★★★★★
+                </div>
+                <!-- REVIEW -->
+                <p class="text-gray-600 mt-5 leading-relaxed">  "The black pepper is incredibly fresh and aromatic.  The quality is much better than the spices I usually  buy from supermarkets." </p>
+
+                <!-- CUSTOMER -->
+                <div class="flex items-center gap-4 mt-6">
+                    <!-- AVATAR -->
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-xl">
+                        👨
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-green-900">   Rahul </h3>
+                        <p class="text-sm text-gray-500"> Vadakara, Kerala </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ================= REVIEW 2 ================= -->
+            <div class="group bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2  transition-all duration-300">
+                <!-- STARS -->
+
+                <div class="text-yellow-500 text-xl"> ★★★★★  </div>
+
+                <!-- REVIEW -->
+                <p class="text-gray-600 mt-5 leading-relaxed">
+                    "I ordered the Kerala spice combo and absolutely
+                    loved it. Everything arrived fresh, well packed
+                    and full of flavor."</p>
+
+                <!-- CUSTOMER -->
+                <div class="flex items-center gap-4 mt-6">
+                    <!-- AVATAR -->
+                    <div class="w-12 h-12 bg-orange-100 rounded-full  flex items-center justify-center text-xl">
+                     👩
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-green-900">  Anjali </h3>
+                        <p class="text-sm text-gray-500"> Kochi, Kerala </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ================= REVIEW 3 ================= -->
+            <div class="group bg-white p-8 rounded-2xl shadow-md  hover:shadow-2xl  hover:-translate-y-2  transition-all duration-300">
+                <!-- STARS -->
+                <div class="text-yellow-500 text-xl">   ★★★★★ </div>
+                <!-- REVIEW -->
+                <p class="text-gray-600 mt-5 leading-relaxed">
+                    "Excellent quality and reasonable prices.
+                    The garam masala gives my food an amazing
+                    authentic Kerala flavor." </p>
+
+                <!-- CUSTOMER -->
+                <div class="flex items-center gap-4 mt-6">
+                    <!-- AVATAR -->
+                    <div class="w-12 h-12 bg-green-100 rounded-full  flex items-center justify-center   text-xl">
+                        👨
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-green-900"> Arjun </h3>
+                        <p class="text-sm text-gray-500"> Malappuram, Kerala </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="bg-green-950 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-14">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            <!-- BRAND -->
+            <div>
+                <h2 class="text-2xl font-bold">
+                    🌿 <span class="text-orange-500">AICY SPICE</span></h2>
+
+                <p class="text-gray-300 mt-4 leading-relaxed">
+                    Bringing the authentic taste and aroma of Kerala spices
+                    directly to your kitchen.</p>
+                <div class="flex gap-4 mt-5">
+                    <a href="#" class="text-gray-300 hover:text-orange-500 text-xl"> Facebook</a>
+                    <a href="#" class="text-gray-300 hover:text-orange-500 text-xl"> Instagram </a>
+                </div>
+            </div>
+            <!-- QUICK LINKS -->
+            <div>
+                <h3 class="text-lg font-bold mb-5">  Quick Links </h3>
+                <ul class="space-y-3">
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-orange-500 transition"> Home </a> </li>
+
+                    <li>
+                        <a href="#products" class="text-gray-300 hover:text-orange-500 transition">  Products </a></li>
+                    <li>
+                        <a href="#categories" class="text-gray-300 hover:text-orange-500 transition"> Categories  </a> </li>
+
+                    <li>
+                        <a href="#about" class="text-gray-300 hover:text-orange-500 transition">  About Us </a> </li>
+                </ul>
+            </div>
+
+            <!-- CATEGORIES -->
+            <div>
+                <h3 class="text-lg font-bold mb-5"> Categories</h3>
+                <ul class="space-y-3">
+                    <li>
+                        <a href="#categories" class="text-gray-300 hover:text-orange-500 transition"> Whole Spices </a> </li>
+
+                    <li>
+                        <a href="#categories" class="text-gray-300 hover:text-orange-500 transition"> Ground Spices </a> </li>
+
+                    <li>
+                        <a href="#categories" class="text-gray-300 hover:text-orange-500 transition">  Organic Spices </a> </li>
+
+                    <li>
+                        <a href="#categories" class="text-gray-300 hover:text-orange-500 transition"> Spice Blends </a> </li>
+                </ul>
+            </div>
+
+            <!-- CONTACT -->
+            <div>
+                <h3 class="text-lg font-bold mb-5"> Contact Us </h3>
+
+                <ul class="space-y-4 text-gray-300">
+
+                    <li>
+                        📍 Kerala, India </li>
+
+                    <li>
+                        📞 +91 98765 43210 </li>
+
+                    <li>
+                        ✉️ info@aicyspice.com </li>
+
+                    <li>
+                        🕒 Mon - Sat: 9:00 AM - 6:00 PM </li>
+                     </ul>
+           
+                    </div> </div>
+
+        <!-- BOTTOM FOOTER -->
+        <div class="border-t border-green-800 mt-12 pt-6  flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-gray-400 text-sm text-center"> © 2026 AICY SPICE. All Rights Reserved. </p>
+
+            <div class="flex gap-6 text-sm">
+                <a href="#" class="text-gray-400 hover:text-orange-500"> Privacy Policy </a>
+                <a href="#" class="text-gray-400 hover:text-orange-500"> Terms & Conditions </a>
+            </div>
+        </div>
+    </div>
+</footer>
+   
+</body>
+</html>
